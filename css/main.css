@@ -1,0 +1,191 @@
+.main-container{
+  display: flex;
+  margin: 0 10%;
+}
+.main-section{
+  width: 30vw;
+  height: 100vh;
+  margin: 10px;
+}
+/* section1 */
+.image-container{
+  display: flex;
+  align-items: center;
+  width: 30vw;
+}
+.image{
+  width: 30vw;
+}
+/* section2 */
+/* produt */
+.prodouct-name {
+  font-weight: 200;
+}
+.prodouct-name p {
+  color: var(--links-green);
+  font-size: 0.8rem;
+}
+.flex-row-details{
+  display: flex;
+  align-items: center;
+}
+/* rating */
+.rating-container{
+  display: flex;
+  align-items: center;
+}
+.rating{
+  background: url('/images/3-fm1Jbg4IHlyhq.png') no-repeat -84px -28px;
+	width: 80px;
+	height: 15px;
+}
+.drop-down{
+  width: 7px;
+  height: 7px;
+  border: solid grey 2px;
+  transform: rotate(45deg);
+  font-weight: 100;
+  margin: 0 0.2rem;
+  border-top: transparent;
+  border-left: transparent;
+}
+.rating-links{
+  color: var(--links-green);
+}
+.mid-points-container{
+  border-top: solid 1px rgb(236, 236, 236);
+  border-bottom: solid 1px rgb(236, 236, 236);
+  height: fit-content;
+  padding: 5px;
+}
+.price-h1{
+  font-size: 1rem;
+}
+/* need to add coupon */
+.specs-container{
+  display: flex;
+  flex-direction: row;
+  font-size: 0.9rem;
+}
+.specs-list-1{
+  list-style: none;
+  font-weight: bold;
+}
+.specs-item{
+  padding: 5px;
+}
+.specs-list-2{
+  list-style: none;
+}
+.about-h1{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.about-list{
+  padding: 10px 30px;
+  font-size: 0.8rem;
+}
+.report-container{
+  display: flex;
+  align-items: baseline;
+  font-size: 0.9rem;
+}
+.report-image{
+  background: url('/images/downloadreporticon.png') no-repeat;
+  display: inline-block;
+  position: relative;
+  width: 13px;
+  top: 1px;
+  height: 11px;
+  background-position: 0 0;
+  background-size: 200% 100%;
+}
+/* section 3 */
+#main-section3{
+  /* width: 30vw; */
+  height: 80vh;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+}
+.import-fees{
+  font-size: 0.9rem;
+  color: grey;
+}
+.section-3-points{
+  list-style: none;
+}
+.points-item{
+  font-size: 0.9rem;
+}
+#time-left{
+  color: var(--green);
+}
+.adress-container{
+  display: flex;
+}
+.location-svg-dark{
+  background: url('/images/nJCzu3ZNAgUz-2w.png') no-repeat;
+  min-width: 16px;
+  height: 14px;
+  background-size: contain;
+}
+.adress-text{
+  font-size: 0.8rem;
+}
+.stock{
+  color: var(--green);
+  font-size: 1.1rem;
+}
+.quantity{
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border: solid 1px rgb(217, 217, 217); 
+}
+.buttons-container{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.buy-button{
+  text-align: center;
+  min-width: 280px;
+  border-radius: 20px;
+  padding: 5px 20%;
+  margin: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.orange{
+  background-color: rgb(255,164,28);
+  border: solid 1px rgb(249, 160, 26);
+}
+.orange:hover{
+  background-color: rgb(215, 133, 10);
+}
+.yellow{
+  background-color: rgb(255,216,20);
+  border: solid 1px rgb(237, 201, 19);
+}
+.yellow:hover{
+  background-color: rgb(217, 182, 9);
+}
+.secure-container{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.secure-icon{
+  background: url('/images/secured-ssl._CB485936932_.png') no-repeat center;
+  min-width: 16px;
+  height: 20px;
+}
+.secure-text{
+  color: var(--links-green);
+  margin: 10px;
+  font-size: 0.8rem;
+}

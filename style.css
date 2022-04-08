@@ -1,0 +1,33 @@
+/* reset */
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --primary-blue: rgb(19,25,33);
+  --secondary-blue: rgb(35,47,62);
+  --primary-orange: rgb(240,134,10);
+  --links-green: rgb(72,136,142);
+  --green: green;
+}
+@font-face {
+  font-family: amazon-ember-medium;
+  src: url('/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Rg.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: amazon-ember-medium;
+}
+.price-container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items:baseline;
+}
+.price{
+  color: rgb(185,59,15);
+}
+.sub-price{
+  color: rgb(185,59,15);
+  font-size: 0.6rem;
+}

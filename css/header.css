@@ -1,0 +1,135 @@
+
+/* utiility */
+.top-nav-container{
+  background-color: var(--primary-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.top-nav-item{
+  color: #fff;
+}
+.location-details p{
+  color: lightgrey;
+  font-size: 0.7rem;
+}
+.location-details h1{
+  color: #fff;
+  font-size: 0.8rem;
+}
+/* shoping cart section */
+.shop-container{
+  display: flex;
+  list-style: none;
+}
+.shop-item{
+  padding: 0.1rem;
+  margin: 0.2rem;
+}
+/* logo */
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 60px;
+}
+.logo{
+  background: url('/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -51px;
+	width: 96px;
+	height: 29px;
+}
+/* location section */
+.location-container{
+  display: flex;
+  align-items:flex-end;
+}
+
+.location-svg{
+  color: #fff;
+  width: 15%;
+  height: 10%;
+}
+
+/* search bar */
+.searchbar-container{
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar-item{
+ list-style: none;
+}
+#drop-down {
+ background-color: lightgrey;
+ width: 30px;
+ height: 30px;
+ border-bottom-left-radius: 10px;
+ border-top-left-radius: 10px;
+}
+#search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  width: 60vw;
+  height: 10px;
+}
+#magnifying {
+  background-color: rgb(254,189,105);
+  width: 30px;
+  height: 30px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+ }
+/* cart */
+#cart{
+  background: url('/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -340px;
+	width: 38px;
+	height: 26px;
+  position: relative;
+}
+.cart-number{
+  color: var(--primary-orange);
+  position: absolute;
+  top: 10px;
+}
+ /* mid-nav */
+ .mid-nav{
+   background-color: var(--secondary-blue);
+   display: flex;
+   list-style: none;
+  }
+ .mid-nav-item{
+   display: flex;
+   color: #fff;
+   margin: 0.2rem;
+   padding: 0.4rem;
+   font-size: 0.9rem;
+   cursor: pointer;
+ }
+ .mid-nav-item:hover{
+   border: solid #fff 1px;
+ }
+ #hamburger{
+   height: 1.2rem;
+   margin: 0px 0.3rem;
+ }
+ /* sub-nav */
+ .sub-nav {
+   display: flex;
+   list-style: none;
+ }
+ .sub-nav-item{
+   padding: 0.4rem;
+   font-size: 0.7rem;
+   cursor: pointer;
+ }
+ .sub-nav-item:hover{
+   text-decoration: underline;
+ }
