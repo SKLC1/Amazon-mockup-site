@@ -1,0 +1,72 @@
+.carousel-container{
+  margin: 0 200px;
+}
+.carousel-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.carousel-item{
+  width: 200px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.carousel-item-img{
+  width: 150px;
+  height: 150px;
+  align-self: center;
+}
+#carousel-img-1{
+  background: url('https://m.media-amazon.com/images/I/519h9jVIshL._AC_SY580_.jpg') no-repeat center center/cover;
+
+}
+.carousel-item-text{
+  font-size: 0.8rem;
+  margin: 5px;
+}
+.rating-count{
+ font-size: 0.7rem;
+ align-self: center;
+}
+#price-black{
+  color: black;
+}
+.carousel-details-list{
+  list-style: none;
+  font-size: 0.7rem;
+}
+.carousel-details-item{
+  margin: 5px;
+}
+.arrow-container{
+  display: flex;
+  align-items: center;
+}
+.arrow-box{
+  background-color: #fff;
+  border: solid gainsboro 1px;
+  width: 35px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px gainsboro;
+}
+.left-arrow{
+  width: 10px;
+  height: 10px;
+  border-top: solid grey 3px;
+  border-left: solid grey 3px;
+  transform: rotate(-45deg);
+}
+.right-arrow{
+  width: 10px;
+  height: 10px;
+  border-top: solid grey 3px;
+  border-left: solid grey 3px;
+  transform: rotate(135deg);
+}
