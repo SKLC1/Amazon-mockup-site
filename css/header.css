@@ -66,27 +66,37 @@
 }
 #drop-down {
  background-color: lightgrey;
- width: 30px;
- height: 30px;
- border-bottom-left-radius: 10px;
- border-top-left-radius: 10px;
+ width: 40px;
+ height: 40px;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
 }
 #search{
   display: flex;
+  border: solid 0px;
   justify-content: center;
   align-items: center;
   background-color: #fff;
   padding: 15px;
   width: 60vw;
-  height: 10px;
+  height: 40px;
 }
 #magnifying {
+  background: url('');
   background-color: rgb(254,189,105);
-  width: 30px;
-  height: 30px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
- }
+  width: 40px;
+  height: 40px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.magnifying-img{
+  background: url('/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -290px;
+	width: 21px;
+	height: 21px;
+}
 /* cart */
 #cart{
   background: url('/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -340px;
