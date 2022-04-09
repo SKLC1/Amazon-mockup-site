@@ -267,3 +267,10 @@
   border-top: transparent;
   border-left: transparent;
 }
+.gift-container{
+  display: flex;
+  align-items: center;
+}
+.gift-box{
+  margin: 5px;
+}
