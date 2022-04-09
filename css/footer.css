@@ -1,9 +1,11 @@
+
 .bought-together-container{
   margin: 0px 200px;
+  border-bottom: solid 1px rgb(209, 209, 209);
 }
-.bought-together-title{
+.red-title{
   margin: 10px 0px;
-  color: rgb(185,59,15);
+  color: rgb(204,102,0);
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -31,6 +33,30 @@
 #plus-img-3{
   background: url('https://images-na.ssl-images-amazon.com/images/I/71Jm1F7x0cL._AC_UL116_SR116,116_.jpg') no-repeat center center/cover;
 }
+.flex-container{
+  display: flex;
+}
+.total{
+  color: grey;
+  font-size: 0.9rem;
+  display: flex;
+}
+.total-container{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#yellow-all-button{
+  font-size: 0.6rem;
+  background-color: rgb(255,216,20);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+  cursor: pointer;
+}
 .info-container{
   display: flex;
   align-items: center;
@@ -50,7 +76,18 @@
   display: flex;
   align-items: baseline;
   margin: 5px;
+  font-size: 0.8rem;
 }
 .info-checkbox{
   margin: 0 5px;
+}
+
+/* carousel */
+.carousel-title-container{
+  margin: 0px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.pages{
+  margin-top: 10px;
 }
