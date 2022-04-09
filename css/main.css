@@ -1,6 +1,8 @@
 .main-container{
   display: flex;
   margin: 0 10%;
+  height: fit-content;
+  border-bottom: solid 1px rgb(209, 209, 209);
 }
 .main-section{
   width: 30vw;
@@ -12,6 +14,7 @@
   display: flex;
   align-items: center;
   width: 30vw;
+
 }
 .image{
   width: 30vw;
@@ -31,6 +34,24 @@
 .links-item:hover{
   border-color: rgb(255, 132, 0);
   box-shadow: 0px 0px 5px rgb(215, 133, 10);
+}
+#link1{
+  background: url('https://m.media-amazon.com/images/I/71jqfwxHzVL._AC_SX569_.jpg') no-repeat center center/cover;
+}
+#link2{
+  background: url('https://m.media-amazon.com/images/I/716Jetv1OOL._AC_SY450_.jpg') no-repeat center center/cover;
+}
+#link3{
+  background: url('https://m.media-amazon.com/images/I/71P44V6UE3L._AC_SY450_.jpg') no-repeat center center/cover;
+}
+#link4{
+  background: url('https://m.media-amazon.com/images/I/71HTwx7Ul7L._AC_SY450_.jpg') no-repeat center center/cover;
+}
+#link5{
+  background: url('https://m.media-amazon.com/images/I/71H77gr1zwL._AC_SY450_.jpg') no-repeat center center/cover;
+}
+#link6{
+  background: url('https://m.media-amazon.com/images/I/41-0XF0b1vL.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg') no-repeat center center/cover;
 }
 /* section2 */
 /* produt */
@@ -67,6 +88,10 @@
 }
 .rating-links{
   color: var(--links-green);
+  cursor: pointer;
+}
+.rating-links:hover{
+  color: rgb(185,59,15);
 }
 .mid-points-container{
   border-top: solid 1px rgb(236, 236, 236);
@@ -152,8 +177,10 @@
 .stock{
   color: var(--green);
   font-size: 1.1rem;
+  margin: 10px;
 }
 .quantity{
+  margin: 10px;
   background-color: rgb(241, 241, 241);
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -168,7 +195,7 @@
 }
 .buy-button{
   text-align: center;
-  min-width: 280px;
+  min-width: 10vw;
   border-radius: 20px;
   padding: 5px 20%;
   margin: 5px;
@@ -211,13 +238,17 @@
   grid-template-columns: repeat(2, auto);
   gap: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .ships-item{
   color: grey;
 }
 .return-policy{
   position: relative;
+}
+#rating-policiy{
+  margin: 10px;
+  font-size: 0.9rem;
 }
 .return-policy::before{
   content: 'Return Policiy:';

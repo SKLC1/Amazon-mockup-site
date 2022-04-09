@@ -1,0 +1,56 @@
+.bought-together-container{
+  margin: 0px 200px;
+}
+.bought-together-title{
+  margin: 10px 0px;
+  color: rgb(185,59,15);
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.plus-list{
+  margin: 20px 5px;
+  list-style: none;
+  display: flex;
+}
+.image-item{
+  height: 100px;
+  width: 100px;
+}
+.plus-item{
+  color: grey;
+  margin: 5px;
+  font-size: 1.5rem;
+  transform: translateY(40%);
+}
+#plus-img-1{
+  background: url('https://m.media-amazon.com/images/I/71jqfwxHzVL._AC_SX569_.jpg') no-repeat center center/cover;
+}
+#plus-img-2{
+  background: url('https://images-na.ssl-images-amazon.com/images/I/81Z5vwfyErL._AC_UL116_SR116,116_.jpg') no-repeat center center/cover;
+}
+#plus-img-3{
+  background: url('https://images-na.ssl-images-amazon.com/images/I/71Jm1F7x0cL._AC_UL116_SR116,116_.jpg') no-repeat center center/cover;
+}
+.info-container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 0.8rem;
+  margin: 5px;
+}
+.icon-img{
+  background:url('/images/i.icon.photo.png') no-repeat center center/cover;
+  width: 20px;
+  height: 20px;
+}
+.info-text{
+  font-size: 0.8rem;
+}
+.info-checkbox-container{
+  display: flex;
+  align-items: baseline;
+  margin: 5px;
+}
+.info-checkbox{
+  margin: 0 5px;
+}
