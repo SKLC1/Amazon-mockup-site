@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/footer.css">
   <link rel="stylesheet" href="/css/carousel.css">
+  <link rel="stylesheet" href="/css/media.css">
+  <link rel="stylesheet" href="/css/images.css">
   <link rel="stylesheet" href="/style.css">
   <title>Document</title>
 </head>
@@ -29,16 +31,16 @@
             </div>
           </div>
        </li>
-       <li class="top-nav-item">
+       <li class="top-nav-item" id="searchbar-container">
          <ul class="searchbar-container">
            <li class="searchbar-item" id="drop-down"></li>
            <input type="search" class="searchbar-item" id="search"></input>
            <li class="searchbar-item" id="magnifying"><div class="magnifying-img"></div></li>
          </ul>
        </li>
-       <li class="top-nav-item">
+       <li class="top-nav-item" id="shopping-cart">
          <ul class="shop-container">
-           <li class="shop-item">FLAG</li>
+           <li class="shop-item" id="flag-container"><div id="flag"></div></li>
            <li class="shop-item">
             <div class="location-details"><p>Hello, Shimon</p>
               <h1>Account & Lists</h1>
@@ -49,7 +51,7 @@
               <h1>& Orders</h1>
             </div>
            </li>
-           <li class="shop-item" id="cart-container">
+           <li class="shop-item-1" id="cart-container">
              <div id="cart"><div class="cart-number">0</div></div>
            </li>
          </ul>
@@ -82,7 +84,7 @@
   <!-- main -->
   <main class="main-container">
     <!-- section 1 -->
-    <section class="main-section">
+    <section class="main-section" id="main-section-1">
       <div class="image-container">
         <img class="image" id="img1" src="/images/71jqfwxHzVL._AC_SX679_.jpg">
       </div>
@@ -371,5 +373,6 @@
        </ul>
      </div>
   </footer>
+  <script src="/app.js"></script>
 </body>
 </html>

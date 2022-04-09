@@ -11,6 +11,7 @@
 .top-nav-item{
   color: #fff;
 }
+
 .location-details p{
   color: lightgrey;
   font-size: 0.7rem;
@@ -24,9 +25,14 @@
   display: flex;
   list-style: none;
 }
-.shop-item{
+.shop-item,
+.shop-item-1{
   padding: 0.1rem;
   margin: 0.2rem;
+}
+.shop-item:hover{
+  border: solid #fff 1px;
+  display:inline;
 }
 /* logo */
 .logo-container{
@@ -96,6 +102,16 @@
   background: url('/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -290px;
 	width: 21px;
 	height: 21px;
+}
+#flag-container{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#flag{
+  background: url('/images/flag-icon.png') no-repeat center center/cover;
+  width: 22px;
+  height: 16px;
 }
 /* cart */
 #cart{

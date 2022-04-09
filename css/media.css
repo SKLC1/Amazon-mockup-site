@@ -1,0 +1,151 @@
+/* header media */
+@media (max-width:1540px) {
+  /* top nav */
+  .top-nav-container{
+    background-color: #232f3e;
+    flex-direction: column;
+  }
+  /* reaarrange */
+  .location-container{
+    padding: 25px;
+  }
+  .location-container p{
+    font-size: 0;
+  }
+  .location-container h1{
+    font-size: 0;
+  }
+  .location-svg{
+    display: none;
+  }
+  #cart-container{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .logo-container{
+    position: absolute;
+    left: 50px;
+  }
+  .logo-container::before{
+    content: '';
+    position: absolute;
+    background: url('/images/icons8-hamburger-menu-50.png') no-repeat center center/cover;
+    width: 25px;
+    height: 30px;
+    left: -40px;
+    top: 20%;
+  }
+  .shop-item{
+    display: none;
+  }
+  .searchbar-container{
+    width: 100vw;
+    justify-content: center;
+    margin: 5px 0px;
+  }
+  #search{
+    width: 90vw;
+  }
+  #drop-down{
+    background-color: #fff;
+  }
+  /* mid nav*/
+  .mid-nav{
+    background-color: rgb(55,71,90);
+  }
+  .mid-nav-item{
+    font-size: 0;
+  }
+  /* sun nav */
+  .sub-nav{
+    display: none;
+  }
+  #flag{
+    display: none;
+  }
+}
+/* main media section 1*/
+@media (max-width:1540px) {
+  .main-container{
+    flex-direction: column;
+    margin: 0px;
+  }
+  .main-section{
+    width: 90vw;
+    margin: 0;
+   
+  }
+  .image{
+    width: 200px;
+
+  }
+  #main-section-1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* transform: translateX(0%); */
+  }
+  .links-item{
+    width: 10px;
+    height: 10px;
+    background-image: none;
+    border-radius: 50px;
+    border: solid 1px grey;
+  }
+  #link1,#link2,#link3,#link4,#link5,
+  #link6 {
+    background:rgb(255, 255, 255);
+  }
+}
+/* main media section 2 */
+@media (max-width:1540px) {
+  .prodouct-name{
+    font-size: 0.8rem;
+    position: absolute;
+    top: 170px;
+  }
+  .buttons-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .buy-button{
+    flex-wrap: nowrap;
+    width: auto;
+  }
+}
+@media (max-width:1000px) {
+  .buy-button{
+    padding: 5px 10px;
+  }
+}
+/* main section 3 */
+@media (max-width:1540px) {
+  #main-section3{
+    width: 90vw;
+    margin: 0;
+  }
+}
+/* footer media */
+@media (max-width:1540px) {
+  .footer-container{
+    width: 100vw;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+  .bought-together-container{
+    margin:0px;
+  }
+  .carousel-title-container{
+    margin:0px;
+  }
+  .carousel-container{
+    display: none;
+  }
+  .carousel-title-container{
+    display: none;
+  }
+}

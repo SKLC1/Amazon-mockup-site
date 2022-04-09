@@ -2,6 +2,7 @@
 .bought-together-container{
   margin: 0px 200px;
   border-bottom: solid 1px rgb(209, 209, 209);
+  padding-bottom: 30px;
 }
 .red-title{
   margin: 10px 0px;
@@ -77,6 +78,7 @@
   align-items: baseline;
   margin: 5px;
   font-size: 0.8rem;
+  margin: 5px;
 }
 .info-checkbox{
   margin: 0 5px;
