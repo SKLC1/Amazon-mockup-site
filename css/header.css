@@ -112,9 +112,11 @@
    padding: 0.4rem;
    font-size: 0.9rem;
    cursor: pointer;
+   position: relative;
  }
  .mid-nav-item:hover{
-   border: solid #fff 1px;
+  border: solid #fff 1px;
+  display:inline;
  }
  #hamburger{
    height: 1.2rem;
