@@ -103,6 +103,45 @@
   font-size: 1rem;
 }
 /* need to add coupon */
+.coupon-container{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.coupon{
+  position: relative;
+  color: #fff;
+  background-color: rgb(228,121,17);
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px 5px;
+  padding-right: 10px;
+}
+.coupon::after{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  top:0px;
+  right: -13px;
+  transform: rotate(45deg);
+}
+.check{
+  margin-left: 20px;
+  background: url('/images/check-for-coupon-img.png') no-repeat center center/cover;
+  min-width: 15px;
+  height: 15px;
+}
+.green-text{
+  margin: 0 5px;
+  font-size: 0.9rem;
+  color: var(--green);
+}
+/* end coupon */
 .specs-container{
   display: flex;
   flex-direction: row;
